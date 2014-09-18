@@ -56,8 +56,8 @@
 		12E2300819CB786500ECC035 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		12E2300A19CB786500ECC035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12E2300C19CB786500ECC035 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		12E2301619CB8A8100ECC035 /* NHDWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDWTest.h; sourceTree = "<group>"; };
-		12E2301719CB8A8100ECC035 /* NHDWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDWTest.m; sourceTree = "<group>"; };
+		12E2301619CB8A8100ECC035 /* NHDWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHDWTest.h; path = ../NHDWTest.h; sourceTree = "<group>"; };
+		12E2301719CB8A8100ECC035 /* NHDWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHDWTest.m; path = ../NHDWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,6 @@
 		12E22FD219CB786400ECC035 = {
 			isa = PBXGroup;
 			children = (
-				12E2301619CB8A8100ECC035 /* NHDWTest.h */,
-				12E2301719CB8A8100ECC035 /* NHDWTest.m */,
 				12E22FE419CB786400ECC035 /* Git Test */,
 				12E2300619CB786500ECC035 /* Git TestTests */,
 				12E22FDD19CB786400ECC035 /* Frameworks */,
@@ -125,6 +123,8 @@
 				12E22FF319CB786400ECC035 /* Main_iPad.storyboard */,
 				12E22FF619CB786400ECC035 /* NHDWViewController.h */,
 				12E22FF719CB786400ECC035 /* NHDWViewController.m */,
+				12E2301619CB8A8100ECC035 /* NHDWTest.h */,
+				12E2301719CB8A8100ECC035 /* NHDWTest.m */,
 				12E22FF919CB786400ECC035 /* Images.xcassets */,
 				12E22FE519CB786400ECC035 /* Supporting Files */,
 			);
