@@ -22,7 +22,7 @@
 		12E2300319CB786500ECC035 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E22FE219CB786400ECC035 /* UIKit.framework */; };
 		12E2300B19CB786500ECC035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12E2300919CB786500ECC035 /* InfoPlist.strings */; };
 		12E2300D19CB786500ECC035 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2300C19CB786500ECC035 /* Git_TestTests.m */; };
-		12E2301819CB8A8100ECC035 /* NHDWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2301719CB8A8100ECC035 /* NHDWTest.m */; };
+		12E2301B19CB8C9B00ECC035 /* NHDWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2301A19CB8C9B00ECC035 /* NHDWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		12E2300819CB786500ECC035 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		12E2300A19CB786500ECC035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12E2300C19CB786500ECC035 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		12E2301619CB8A8100ECC035 /* NHDWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHDWTest.h; path = ../NHDWTest.h; sourceTree = "<group>"; };
-		12E2301719CB8A8100ECC035 /* NHDWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHDWTest.m; path = ../NHDWTest.m; sourceTree = "<group>"; };
+		12E2301919CB8C9B00ECC035 /* NHDWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDWTest.h; sourceTree = "<group>"; };
+		12E2301A19CB8C9B00ECC035 /* NHDWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +123,8 @@
 				12E22FF319CB786400ECC035 /* Main_iPad.storyboard */,
 				12E22FF619CB786400ECC035 /* NHDWViewController.h */,
 				12E22FF719CB786400ECC035 /* NHDWViewController.m */,
-				12E2301619CB8A8100ECC035 /* NHDWTest.h */,
-				12E2301719CB8A8100ECC035 /* NHDWTest.m */,
+				12E2301919CB8C9B00ECC035 /* NHDWTest.h */,
+				12E2301A19CB8C9B00ECC035 /* NHDWTest.m */,
 				12E22FF919CB786400ECC035 /* Images.xcassets */,
 				12E22FE519CB786400ECC035 /* Supporting Files */,
 			);
@@ -261,7 +261,7 @@
 			files = (
 				12E22FF819CB786400ECC035 /* NHDWViewController.m in Sources */,
 				12E22FEB19CB786400ECC035 /* main.m in Sources */,
-				12E2301819CB8A8100ECC035 /* NHDWTest.m in Sources */,
+				12E2301B19CB8C9B00ECC035 /* NHDWTest.m in Sources */,
 				12E22FEF19CB786400ECC035 /* NHDWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +477,7 @@
 				12E2301219CB786500ECC035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12E2301319CB786500ECC035 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				12E2301519CB786500ECC035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
