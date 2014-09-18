@@ -22,6 +22,7 @@
 		12E2300319CB786500ECC035 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E22FE219CB786400ECC035 /* UIKit.framework */; };
 		12E2300B19CB786500ECC035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12E2300919CB786500ECC035 /* InfoPlist.strings */; };
 		12E2300D19CB786500ECC035 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2300C19CB786500ECC035 /* Git_TestTests.m */; };
+		12E2301819CB8A8100ECC035 /* NHDWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2301719CB8A8100ECC035 /* NHDWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		12E2300819CB786500ECC035 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		12E2300A19CB786500ECC035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12E2300C19CB786500ECC035 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		12E2301619CB8A8100ECC035 /* NHDWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDWTest.h; sourceTree = "<group>"; };
+		12E2301719CB8A8100ECC035 /* NHDWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		12E22FD219CB786400ECC035 = {
 			isa = PBXGroup;
 			children = (
+				12E2301619CB8A8100ECC035 /* NHDWTest.h */,
+				12E2301719CB8A8100ECC035 /* NHDWTest.m */,
 				12E22FE419CB786400ECC035 /* Git Test */,
 				12E2300619CB786500ECC035 /* Git TestTests */,
 				12E22FDD19CB786400ECC035 /* Frameworks */,
@@ -256,6 +261,7 @@
 			files = (
 				12E22FF819CB786400ECC035 /* NHDWViewController.m in Sources */,
 				12E22FEB19CB786400ECC035 /* main.m in Sources */,
+				12E2301819CB8A8100ECC035 /* NHDWTest.m in Sources */,
 				12E22FEF19CB786400ECC035 /* NHDWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
